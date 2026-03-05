@@ -1,0 +1,213 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: DS5220 Project 1 stack for anomaly detection pipeline (EC2 + S3 + SNS)
+
+Parameters:
+  KeyName:
+    Type: AWS::EC2::KeyPair::KeyName
+    Description: Existing EC2 key pair for SSH
+
+  SSHLocation:
+    Type: String
+    Description: Your public IP in CIDR form for SSH (example 1.2.3.4/32)
+    AllowedPattern: ^(\d{1,3}\.){3}\d{1,3}\/\d{1,2}$
+    ConstraintDescription: Must be a valid CIDR like 1.2.3.4/32
+
+  RepoUrl:
+    Type: String
+    Description: HTTPS URL of your forked anomaly-detection repository
+    Default: https://github.com/skunitzlevy/anomaly-detection.git
+
+Resources:
+  DataBucket:
+    Type: AWS::S3::Bucket
+    DependsOn: AppTopicPolicy
+    Properties:
+      NotificationConfiguration:
+        TopicConfigurations:
+          - Event: s3:ObjectCreated:*
+            Topic: !Ref AppTopic
+            Filter:
+              S3Key:
+                Rules:
+                  - Name: prefix
+                    Value: raw/
+                  - Name: suffix
+                    Value: .csv
+
+  AppTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: ds5220-dp1
+
+  AppTopicPolicy:
+    Type: AWS::SNS::TopicPolicy
+    Properties:
+      Topics:
+        - !Ref AppTopic
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Sid: AllowS3PublishToTopic
+            Effect: Allow
+            Principal:
+              Service: s3.amazonaws.com
+            Action: sns:Publish
+            Resource: !Ref AppTopic
+            Condition:
+              StringEquals:
+                aws:SourceAccount: !Ref AWS::AccountId
+
+  AppRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: ec2.amazonaws.com
+            Action: sts:AssumeRole
+
+  AppRolePolicy:
+    Type: AWS::IAM::Policy
+    Properties:
+      PolicyName: DataBucketAccessOnly
+      Roles:
+        - !Ref AppRole
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Sid: BucketList
+            Effect: Allow
+            Action:
+              - s3:ListBucket
+            Resource: !GetAtt DataBucket.Arn
+          - Sid: BucketObjectsRWDelete
+            Effect: Allow
+            Action:
+              - s3:GetObject
+              - s3:PutObject
+              - s3:DeleteObject
+            Resource: !Sub '${DataBucket.Arn}/*'
+
+  AppInstanceProfile:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      Roles:
+        - !Ref AppRole
+
+  AppSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Allow SSH from student IP and API on port 8000 from anywhere
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: !Ref SSHLocation
+          Description: SSH from your IP only
+        - IpProtocol: tcp
+          FromPort: 8000
+          ToPort: 8000
+          CidrIp: 0.0.0.0/0
+          Description: FastAPI endpoint for SNS and API access
+
+  AppInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: !Sub '{{resolve:ssm:/aws/service/canonical/ubuntu/server/24.04/stable/current/amd64/hvm/ebs-gp3/ami-id}}'
+      InstanceType: t3.micro
+      KeyName: !Ref KeyName
+      IamInstanceProfile: !Ref AppInstanceProfile
+      SecurityGroupIds:
+        - !Ref AppSecurityGroup
+      BlockDeviceMappings:
+        - DeviceName: /dev/sda1
+          Ebs:
+            VolumeSize: 16
+            VolumeType: gp3
+            DeleteOnTermination: true
+      UserData:
+        Fn::Base64: !Sub |
+          #!/bin/bash
+          set -euxo pipefail
+
+          apt-get update -y
+          apt-get install -y python3 python3-venv python3-pip git
+
+          su - ubuntu -c "cd /home/ubuntu && if [ ! -d anomaly-detection ]; then git clone ${RepoUrl}; else cd anomaly-detection && git pull; fi"
+
+          su - ubuntu -c "cd /home/ubuntu/anomaly-detection && python3 -m venv .venv"
+          su - ubuntu -c "cd /home/ubuntu/anomaly-detection && .venv/bin/pip install --upgrade pip"
+          su - ubuntu -c "cd /home/ubuntu/anomaly-detection && .venv/bin/pip install -r requirements.txt"
+
+          export BUCKET_NAME='${DataBucket}'
+          echo "export BUCKET_NAME=${DataBucket}" >> /home/ubuntu/.bashrc
+
+          if grep -q '^BUCKET_NAME=' /etc/environment; then
+            sed -i "s|^BUCKET_NAME=.*|BUCKET_NAME=${DataBucket}|" /etc/environment
+          else
+            echo "BUCKET_NAME=${DataBucket}" >> /etc/environment
+          fi
+
+          cat > /etc/systemd/system/anomaly-api.service <<'SERVICEEOF'
+          [Unit]
+          Description=Anomaly Detection FastAPI Service
+          After=network.target
+
+          [Service]
+          Type=simple
+          User=ubuntu
+          WorkingDirectory=/home/ubuntu/anomaly-detection
+          Environment=BUCKET_NAME=${DataBucket}
+          ExecStart=/home/ubuntu/anomaly-detection/.venv/bin/uvicorn app:app --host 0.0.0.0 --port 8000
+          Restart=always
+          RestartSec=5
+
+          [Install]
+          WantedBy=multi-user.target
+          SERVICEEOF
+
+          systemctl daemon-reload
+          systemctl enable anomaly-api.service
+          systemctl start anomaly-api.service
+
+      Tags:
+        - Key: Name
+          Value: !Sub '${AWS::StackName}-app'
+
+  AppEip:
+    Type: AWS::EC2::EIP
+    Properties:
+      Domain: vpc
+
+  AppEipAssociation:
+    Type: AWS::EC2::EIPAssociation
+    Properties:
+      AllocationId: !GetAtt AppEip.AllocationId
+      InstanceId: !Ref AppInstance
+
+  AppSubscription:
+    Type: AWS::SNS::Subscription
+    DependsOn: AppEipAssociation
+    Properties:
+      TopicArn: !Ref AppTopic
+      Protocol: http
+      Endpoint: !Sub 'http://${AppEip}:8000/notify'
+
+Outputs:
+  BucketName:
+    Description: S3 bucket used by the app
+    Value: !Ref DataBucket
+
+  InstanceId:
+    Description: EC2 instance ID
+    Value: !Ref AppInstance
+
+  ElasticIp:
+    Description: Stable public IP for API/SNS endpoint
+    Value: !Ref AppEip
+
+  NotifyEndpoint:
+    Description: SNS HTTP endpoint used by the app
+    Value: !Sub 'http://${AppEip}:8000/notify'
