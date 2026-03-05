@@ -1,0 +1,732 @@
+2026-03-05 21:48:32,158 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sample.csv
+2026-03-05 21:48:32,168 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sample.csv
+2026-03-05 21:48:32,258 INFO Loaded 100 rows from raw/sample.csv
+2026-03-05 21:48:32,333 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:48:32,337 INFO Baseline updated for temperature: +100 values (count 0 -> 100)
+2026-03-05 21:48:32,337 INFO Baseline updated for humidity: +100 values (count 0 -> 100)
+2026-03-05 21:48:32,337 INFO Baseline updated for pressure: +100 values (count 0 -> 100)
+2026-03-05 21:48:32,338 INFO Baseline updated for wind_speed: +100 values (count 0 -> 100)
+2026-03-05 21:48:32,338 INFO Running anomaly calculations for raw/sample.csv
+2026-03-05 21:48:32,534 INFO Completed anomaly calculations for raw/sample.csv
+2026-03-05 21:48:32,619 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:48:32,644 INFO Finished processing raw/sample.csv: anomalies=6 total_rows=100
+2026-03-05 21:53:35,543 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T215334.csv
+2026-03-05 21:53:35,544 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T215334.csv
+2026-03-05 21:53:35,617 INFO Loaded 100 rows from raw/sensors_20260305T215334.csv
+2026-03-05 21:53:35,710 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:53:35,711 INFO Baseline updated for temperature: +100 values (count 100 -> 200)
+2026-03-05 21:53:35,712 INFO Baseline updated for humidity: +100 values (count 100 -> 200)
+2026-03-05 21:53:35,712 INFO Baseline updated for pressure: +100 values (count 100 -> 200)
+2026-03-05 21:53:35,712 INFO Baseline updated for wind_speed: +100 values (count 100 -> 200)
+2026-03-05 21:53:35,712 INFO Running anomaly calculations for raw/sensors_20260305T215334.csv
+2026-03-05 21:53:35,892 INFO Completed anomaly calculations for raw/sensors_20260305T215334.csv
+2026-03-05 21:53:35,961 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:53:36,001 INFO Finished processing raw/sensors_20260305T215334.csv: anomalies=7 total_rows=100
+2026-03-05 21:54:36,123 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T215434.csv
+2026-03-05 21:54:36,123 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T215434.csv
+2026-03-05 21:54:36,210 INFO Loaded 100 rows from raw/sensors_20260305T215434.csv
+2026-03-05 21:54:36,328 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:54:36,328 INFO Baseline updated for temperature: +100 values (count 200 -> 300)
+2026-03-05 21:54:36,328 INFO Baseline updated for humidity: +100 values (count 200 -> 300)
+2026-03-05 21:54:36,329 INFO Baseline updated for pressure: +100 values (count 200 -> 300)
+2026-03-05 21:54:36,329 INFO Baseline updated for wind_speed: +100 values (count 200 -> 300)
+2026-03-05 21:54:36,329 INFO Running anomaly calculations for raw/sensors_20260305T215434.csv
+2026-03-05 21:54:36,506 INFO Completed anomaly calculations for raw/sensors_20260305T215434.csv
+2026-03-05 21:54:36,573 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:54:36,614 INFO Finished processing raw/sensors_20260305T215434.csv: anomalies=5 total_rows=100
+2026-03-05 21:55:35,769 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T215535.csv
+2026-03-05 21:55:35,769 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T215535.csv
+2026-03-05 21:55:35,854 INFO Loaded 100 rows from raw/sensors_20260305T215535.csv
+2026-03-05 21:55:35,929 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:55:35,930 INFO Baseline updated for temperature: +100 values (count 300 -> 400)
+2026-03-05 21:55:35,930 INFO Baseline updated for humidity: +100 values (count 300 -> 400)
+2026-03-05 21:55:35,930 INFO Baseline updated for pressure: +100 values (count 300 -> 400)
+2026-03-05 21:55:35,931 INFO Baseline updated for wind_speed: +100 values (count 300 -> 400)
+2026-03-05 21:55:35,931 INFO Running anomaly calculations for raw/sensors_20260305T215535.csv
+2026-03-05 21:55:36,108 INFO Completed anomaly calculations for raw/sensors_20260305T215535.csv
+2026-03-05 21:55:36,189 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:55:36,225 INFO Finished processing raw/sensors_20260305T215535.csv: anomalies=7 total_rows=100
+2026-03-05 21:56:36,221 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T215635.csv
+2026-03-05 21:56:36,221 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T215635.csv
+2026-03-05 21:56:36,295 INFO Loaded 100 rows from raw/sensors_20260305T215635.csv
+2026-03-05 21:56:36,373 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:56:36,374 INFO Baseline updated for temperature: +100 values (count 400 -> 500)
+2026-03-05 21:56:36,374 INFO Baseline updated for humidity: +100 values (count 400 -> 500)
+2026-03-05 21:56:36,374 INFO Baseline updated for pressure: +100 values (count 400 -> 500)
+2026-03-05 21:56:36,374 INFO Baseline updated for wind_speed: +100 values (count 400 -> 500)
+2026-03-05 21:56:36,374 INFO Running anomaly calculations for raw/sensors_20260305T215635.csv
+2026-03-05 21:56:36,552 INFO Completed anomaly calculations for raw/sensors_20260305T215635.csv
+2026-03-05 21:56:36,642 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:56:36,672 INFO Finished processing raw/sensors_20260305T215635.csv: anomalies=5 total_rows=100
+2026-03-05 21:57:35,846 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T215735.csv
+2026-03-05 21:57:35,847 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T215735.csv
+2026-03-05 21:57:35,920 INFO Loaded 100 rows from raw/sensors_20260305T215735.csv
+2026-03-05 21:57:36,058 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:57:36,058 INFO Baseline updated for temperature: +100 values (count 500 -> 600)
+2026-03-05 21:57:36,058 INFO Baseline updated for humidity: +100 values (count 500 -> 600)
+2026-03-05 21:57:36,059 INFO Baseline updated for pressure: +100 values (count 500 -> 600)
+2026-03-05 21:57:36,059 INFO Baseline updated for wind_speed: +100 values (count 500 -> 600)
+2026-03-05 21:57:36,059 INFO Running anomaly calculations for raw/sensors_20260305T215735.csv
+2026-03-05 21:57:36,236 INFO Completed anomaly calculations for raw/sensors_20260305T215735.csv
+2026-03-05 21:57:36,300 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:57:36,345 INFO Finished processing raw/sensors_20260305T215735.csv: anomalies=5 total_rows=100
+2026-03-05 21:58:36,337 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T215835.csv
+2026-03-05 21:58:36,337 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T215835.csv
+2026-03-05 21:58:36,409 INFO Loaded 100 rows from raw/sensors_20260305T215835.csv
+2026-03-05 21:58:36,512 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:58:36,512 INFO Baseline updated for temperature: +100 values (count 600 -> 700)
+2026-03-05 21:58:36,513 INFO Baseline updated for humidity: +100 values (count 600 -> 700)
+2026-03-05 21:58:36,513 INFO Baseline updated for pressure: +100 values (count 600 -> 700)
+2026-03-05 21:58:36,513 INFO Baseline updated for wind_speed: +100 values (count 600 -> 700)
+2026-03-05 21:58:36,513 INFO Running anomaly calculations for raw/sensors_20260305T215835.csv
+2026-03-05 21:58:36,690 INFO Completed anomaly calculations for raw/sensors_20260305T215835.csv
+2026-03-05 21:58:36,752 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:58:36,784 INFO Finished processing raw/sensors_20260305T215835.csv: anomalies=5 total_rows=100
+2026-03-05 21:59:36,559 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T215935.csv
+2026-03-05 21:59:36,560 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T215935.csv
+2026-03-05 21:59:36,637 INFO Loaded 100 rows from raw/sensors_20260305T215935.csv
+2026-03-05 21:59:36,729 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:59:36,729 INFO Baseline updated for temperature: +100 values (count 700 -> 800)
+2026-03-05 21:59:36,729 INFO Baseline updated for humidity: +100 values (count 700 -> 800)
+2026-03-05 21:59:36,730 INFO Baseline updated for pressure: +100 values (count 700 -> 800)
+2026-03-05 21:59:36,730 INFO Baseline updated for wind_speed: +100 values (count 700 -> 800)
+2026-03-05 21:59:36,730 INFO Running anomaly calculations for raw/sensors_20260305T215935.csv
+2026-03-05 21:59:36,910 INFO Completed anomaly calculations for raw/sensors_20260305T215935.csv
+2026-03-05 21:59:36,982 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 21:59:37,009 INFO Finished processing raw/sensors_20260305T215935.csv: anomalies=5 total_rows=100
+2026-03-05 22:00:36,342 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220035.csv
+2026-03-05 22:00:36,342 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220035.csv
+2026-03-05 22:00:36,420 INFO Loaded 100 rows from raw/sensors_20260305T220035.csv
+2026-03-05 22:00:36,498 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:00:36,498 INFO Baseline updated for temperature: +100 values (count 800 -> 900)
+2026-03-05 22:00:36,499 INFO Baseline updated for humidity: +100 values (count 800 -> 900)
+2026-03-05 22:00:36,499 INFO Baseline updated for pressure: +100 values (count 800 -> 900)
+2026-03-05 22:00:36,499 INFO Baseline updated for wind_speed: +100 values (count 800 -> 900)
+2026-03-05 22:00:36,499 INFO Running anomaly calculations for raw/sensors_20260305T220035.csv
+2026-03-05 22:00:36,676 INFO Completed anomaly calculations for raw/sensors_20260305T220035.csv
+2026-03-05 22:00:36,753 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:00:36,783 INFO Finished processing raw/sensors_20260305T220035.csv: anomalies=6 total_rows=100
+2026-03-05 22:01:36,911 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220135.csv
+2026-03-05 22:01:36,911 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220135.csv
+2026-03-05 22:01:36,984 INFO Loaded 100 rows from raw/sensors_20260305T220135.csv
+2026-03-05 22:01:37,092 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:01:37,093 INFO Baseline updated for temperature: +100 values (count 900 -> 1000)
+2026-03-05 22:01:37,093 INFO Baseline updated for humidity: +100 values (count 900 -> 1000)
+2026-03-05 22:01:37,093 INFO Baseline updated for pressure: +100 values (count 900 -> 1000)
+2026-03-05 22:01:37,093 INFO Baseline updated for wind_speed: +100 values (count 900 -> 1000)
+2026-03-05 22:01:37,093 INFO Running anomaly calculations for raw/sensors_20260305T220135.csv
+2026-03-05 22:01:37,271 INFO Completed anomaly calculations for raw/sensors_20260305T220135.csv
+2026-03-05 22:01:37,344 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:01:37,374 INFO Finished processing raw/sensors_20260305T220135.csv: anomalies=5 total_rows=100
+2026-03-05 22:02:36,587 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220235.csv
+2026-03-05 22:02:36,588 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220235.csv
+2026-03-05 22:02:36,669 INFO Loaded 100 rows from raw/sensors_20260305T220235.csv
+2026-03-05 22:02:36,761 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:02:36,761 INFO Baseline updated for temperature: +100 values (count 1000 -> 1100)
+2026-03-05 22:02:36,762 INFO Baseline updated for humidity: +100 values (count 1000 -> 1100)
+2026-03-05 22:02:36,762 INFO Baseline updated for pressure: +100 values (count 1000 -> 1100)
+2026-03-05 22:02:36,762 INFO Baseline updated for wind_speed: +100 values (count 1000 -> 1100)
+2026-03-05 22:02:36,762 INFO Running anomaly calculations for raw/sensors_20260305T220235.csv
+2026-03-05 22:02:36,940 INFO Completed anomaly calculations for raw/sensors_20260305T220235.csv
+2026-03-05 22:02:37,031 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:02:37,064 INFO Finished processing raw/sensors_20260305T220235.csv: anomalies=5 total_rows=100
+2026-03-05 22:03:37,013 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220335.csv
+2026-03-05 22:03:37,014 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220335.csv
+2026-03-05 22:03:37,088 INFO Loaded 100 rows from raw/sensors_20260305T220335.csv
+2026-03-05 22:03:37,178 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:03:37,178 INFO Baseline updated for temperature: +100 values (count 1100 -> 1200)
+2026-03-05 22:03:37,178 INFO Baseline updated for humidity: +100 values (count 1100 -> 1200)
+2026-03-05 22:03:37,179 INFO Baseline updated for pressure: +100 values (count 1100 -> 1200)
+2026-03-05 22:03:37,179 INFO Baseline updated for wind_speed: +100 values (count 1100 -> 1200)
+2026-03-05 22:03:37,179 INFO Running anomaly calculations for raw/sensors_20260305T220335.csv
+2026-03-05 22:03:37,359 INFO Completed anomaly calculations for raw/sensors_20260305T220335.csv
+2026-03-05 22:03:37,431 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:03:37,480 INFO Finished processing raw/sensors_20260305T220335.csv: anomalies=5 total_rows=100
+2026-03-05 22:04:36,427 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220435.csv
+2026-03-05 22:04:36,428 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220435.csv
+2026-03-05 22:04:36,499 INFO Loaded 100 rows from raw/sensors_20260305T220435.csv
+2026-03-05 22:04:36,575 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:04:36,576 INFO Baseline updated for temperature: +100 values (count 1200 -> 1300)
+2026-03-05 22:04:36,576 INFO Baseline updated for humidity: +100 values (count 1200 -> 1300)
+2026-03-05 22:04:36,576 INFO Baseline updated for pressure: +100 values (count 1200 -> 1300)
+2026-03-05 22:04:36,576 INFO Baseline updated for wind_speed: +100 values (count 1200 -> 1300)
+2026-03-05 22:04:36,576 INFO Running anomaly calculations for raw/sensors_20260305T220435.csv
+2026-03-05 22:04:36,752 INFO Completed anomaly calculations for raw/sensors_20260305T220435.csv
+2026-03-05 22:04:36,813 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:04:36,841 INFO Finished processing raw/sensors_20260305T220435.csv: anomalies=6 total_rows=100
+2026-03-05 22:05:37,051 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220535.csv
+2026-03-05 22:05:37,052 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220535.csv
+2026-03-05 22:05:37,128 INFO Loaded 100 rows from raw/sensors_20260305T220535.csv
+2026-03-05 22:05:37,231 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:05:37,232 INFO Baseline updated for temperature: +100 values (count 1300 -> 1400)
+2026-03-05 22:05:37,232 INFO Baseline updated for humidity: +100 values (count 1300 -> 1400)
+2026-03-05 22:05:37,232 INFO Baseline updated for pressure: +100 values (count 1300 -> 1400)
+2026-03-05 22:05:37,233 INFO Baseline updated for wind_speed: +100 values (count 1300 -> 1400)
+2026-03-05 22:05:37,233 INFO Running anomaly calculations for raw/sensors_20260305T220535.csv
+2026-03-05 22:05:37,410 INFO Completed anomaly calculations for raw/sensors_20260305T220535.csv
+2026-03-05 22:05:37,508 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:05:37,530 INFO Finished processing raw/sensors_20260305T220535.csv: anomalies=7 total_rows=100
+2026-03-05 22:06:36,718 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220636.csv
+2026-03-05 22:06:36,718 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220636.csv
+2026-03-05 22:06:36,794 INFO Loaded 100 rows from raw/sensors_20260305T220636.csv
+2026-03-05 22:06:36,868 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:06:36,869 INFO Baseline updated for temperature: +100 values (count 1400 -> 1500)
+2026-03-05 22:06:36,869 INFO Baseline updated for humidity: +100 values (count 1400 -> 1500)
+2026-03-05 22:06:36,869 INFO Baseline updated for pressure: +100 values (count 1400 -> 1500)
+2026-03-05 22:06:36,870 INFO Baseline updated for wind_speed: +100 values (count 1400 -> 1500)
+2026-03-05 22:06:36,870 INFO Running anomaly calculations for raw/sensors_20260305T220636.csv
+2026-03-05 22:06:37,045 INFO Completed anomaly calculations for raw/sensors_20260305T220636.csv
+2026-03-05 22:06:37,110 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:06:37,144 INFO Finished processing raw/sensors_20260305T220636.csv: anomalies=5 total_rows=100
+2026-03-05 22:07:37,170 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220736.csv
+2026-03-05 22:07:37,171 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220736.csv
+2026-03-05 22:07:37,250 INFO Loaded 100 rows from raw/sensors_20260305T220736.csv
+2026-03-05 22:07:37,329 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:07:37,329 INFO Baseline updated for temperature: +100 values (count 1500 -> 1600)
+2026-03-05 22:07:37,329 INFO Baseline updated for humidity: +100 values (count 1500 -> 1600)
+2026-03-05 22:07:37,330 INFO Baseline updated for pressure: +100 values (count 1500 -> 1600)
+2026-03-05 22:07:37,330 INFO Baseline updated for wind_speed: +100 values (count 1500 -> 1600)
+2026-03-05 22:07:37,330 INFO Running anomaly calculations for raw/sensors_20260305T220736.csv
+2026-03-05 22:07:37,507 INFO Completed anomaly calculations for raw/sensors_20260305T220736.csv
+2026-03-05 22:07:37,583 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:07:37,612 INFO Finished processing raw/sensors_20260305T220736.csv: anomalies=6 total_rows=100
+2026-03-05 22:08:37,739 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220836.csv
+2026-03-05 22:08:37,740 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220836.csv
+2026-03-05 22:08:37,813 INFO Loaded 100 rows from raw/sensors_20260305T220836.csv
+2026-03-05 22:08:37,893 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:08:37,893 INFO Baseline updated for temperature: +100 values (count 1600 -> 1700)
+2026-03-05 22:08:37,894 INFO Baseline updated for humidity: +100 values (count 1600 -> 1700)
+2026-03-05 22:08:37,894 INFO Baseline updated for pressure: +100 values (count 1600 -> 1700)
+2026-03-05 22:08:37,894 INFO Baseline updated for wind_speed: +100 values (count 1600 -> 1700)
+2026-03-05 22:08:37,894 INFO Running anomaly calculations for raw/sensors_20260305T220836.csv
+2026-03-05 22:08:38,073 INFO Completed anomaly calculations for raw/sensors_20260305T220836.csv
+2026-03-05 22:08:38,138 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:08:38,174 INFO Finished processing raw/sensors_20260305T220836.csv: anomalies=6 total_rows=100
+2026-03-05 22:09:37,402 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220936.csv
+2026-03-05 22:09:37,403 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T220936.csv
+2026-03-05 22:09:37,482 INFO Loaded 100 rows from raw/sensors_20260305T220936.csv
+2026-03-05 22:09:37,552 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:09:37,553 INFO Baseline updated for temperature: +100 values (count 1700 -> 1800)
+2026-03-05 22:09:37,553 INFO Baseline updated for humidity: +100 values (count 1700 -> 1800)
+2026-03-05 22:09:37,554 INFO Baseline updated for pressure: +100 values (count 1700 -> 1800)
+2026-03-05 22:09:37,554 INFO Baseline updated for wind_speed: +100 values (count 1700 -> 1800)
+2026-03-05 22:09:37,554 INFO Running anomaly calculations for raw/sensors_20260305T220936.csv
+2026-03-05 22:09:37,729 INFO Completed anomaly calculations for raw/sensors_20260305T220936.csv
+2026-03-05 22:09:37,788 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:09:37,817 INFO Finished processing raw/sensors_20260305T220936.csv: anomalies=5 total_rows=100
+2026-03-05 22:10:37,896 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221036.csv
+2026-03-05 22:10:37,896 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221036.csv
+2026-03-05 22:10:37,974 INFO Loaded 100 rows from raw/sensors_20260305T221036.csv
+2026-03-05 22:10:38,073 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:10:38,073 INFO Baseline updated for temperature: +100 values (count 1800 -> 1900)
+2026-03-05 22:10:38,074 INFO Baseline updated for humidity: +100 values (count 1800 -> 1900)
+2026-03-05 22:10:38,074 INFO Baseline updated for pressure: +100 values (count 1800 -> 1900)
+2026-03-05 22:10:38,074 INFO Baseline updated for wind_speed: +100 values (count 1800 -> 1900)
+2026-03-05 22:10:38,074 INFO Running anomaly calculations for raw/sensors_20260305T221036.csv
+2026-03-05 22:10:38,251 INFO Completed anomaly calculations for raw/sensors_20260305T221036.csv
+2026-03-05 22:10:38,338 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:10:38,365 INFO Finished processing raw/sensors_20260305T221036.csv: anomalies=7 total_rows=100
+2026-03-05 22:11:37,525 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221136.csv
+2026-03-05 22:11:37,525 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221136.csv
+2026-03-05 22:11:37,614 INFO Loaded 100 rows from raw/sensors_20260305T221136.csv
+2026-03-05 22:11:37,693 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:11:37,694 INFO Baseline updated for temperature: +100 values (count 1900 -> 2000)
+2026-03-05 22:11:37,694 INFO Baseline updated for humidity: +100 values (count 1900 -> 2000)
+2026-03-05 22:11:37,694 INFO Baseline updated for pressure: +100 values (count 1900 -> 2000)
+2026-03-05 22:11:37,695 INFO Baseline updated for wind_speed: +100 values (count 1900 -> 2000)
+2026-03-05 22:11:37,695 INFO Running anomaly calculations for raw/sensors_20260305T221136.csv
+2026-03-05 22:11:37,872 INFO Completed anomaly calculations for raw/sensors_20260305T221136.csv
+2026-03-05 22:11:37,950 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:11:37,988 INFO Finished processing raw/sensors_20260305T221136.csv: anomalies=7 total_rows=100
+2026-03-05 22:12:37,946 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221236.csv
+2026-03-05 22:12:37,947 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221236.csv
+2026-03-05 22:12:38,022 INFO Loaded 100 rows from raw/sensors_20260305T221236.csv
+2026-03-05 22:12:38,099 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:12:38,100 INFO Baseline updated for temperature: +100 values (count 2000 -> 2100)
+2026-03-05 22:12:38,100 INFO Baseline updated for humidity: +100 values (count 2000 -> 2100)
+2026-03-05 22:12:38,100 INFO Baseline updated for pressure: +100 values (count 2000 -> 2100)
+2026-03-05 22:12:38,100 INFO Baseline updated for wind_speed: +100 values (count 2000 -> 2100)
+2026-03-05 22:12:38,100 INFO Running anomaly calculations for raw/sensors_20260305T221236.csv
+2026-03-05 22:12:38,285 INFO Completed anomaly calculations for raw/sensors_20260305T221236.csv
+2026-03-05 22:12:38,378 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:12:38,407 INFO Finished processing raw/sensors_20260305T221236.csv: anomalies=8 total_rows=100
+2026-03-05 22:13:37,580 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221336.csv
+2026-03-05 22:13:37,580 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221336.csv
+2026-03-05 22:13:37,659 INFO Loaded 100 rows from raw/sensors_20260305T221336.csv
+2026-03-05 22:13:37,855 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:13:37,856 INFO Baseline updated for temperature: +100 values (count 2100 -> 2200)
+2026-03-05 22:13:37,856 INFO Baseline updated for humidity: +100 values (count 2100 -> 2200)
+2026-03-05 22:13:37,856 INFO Baseline updated for pressure: +100 values (count 2100 -> 2200)
+2026-03-05 22:13:37,856 INFO Baseline updated for wind_speed: +100 values (count 2100 -> 2200)
+2026-03-05 22:13:37,856 INFO Running anomaly calculations for raw/sensors_20260305T221336.csv
+2026-03-05 22:13:38,034 INFO Completed anomaly calculations for raw/sensors_20260305T221336.csv
+2026-03-05 22:13:38,094 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:13:38,121 INFO Finished processing raw/sensors_20260305T221336.csv: anomalies=6 total_rows=100
+2026-03-05 22:14:38,042 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221436.csv
+2026-03-05 22:14:38,043 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221436.csv
+2026-03-05 22:14:38,122 INFO Loaded 100 rows from raw/sensors_20260305T221436.csv
+2026-03-05 22:14:38,230 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:14:38,231 INFO Baseline updated for temperature: +100 values (count 2200 -> 2300)
+2026-03-05 22:14:38,231 INFO Baseline updated for humidity: +100 values (count 2200 -> 2300)
+2026-03-05 22:14:38,231 INFO Baseline updated for pressure: +100 values (count 2200 -> 2300)
+2026-03-05 22:14:38,232 INFO Baseline updated for wind_speed: +100 values (count 2200 -> 2300)
+2026-03-05 22:14:38,232 INFO Running anomaly calculations for raw/sensors_20260305T221436.csv
+2026-03-05 22:14:38,409 INFO Completed anomaly calculations for raw/sensors_20260305T221436.csv
+2026-03-05 22:14:38,478 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:14:38,513 INFO Finished processing raw/sensors_20260305T221436.csv: anomalies=5 total_rows=100
+2026-03-05 22:15:37,725 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221536.csv
+2026-03-05 22:15:37,726 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221536.csv
+2026-03-05 22:15:37,806 INFO Loaded 100 rows from raw/sensors_20260305T221536.csv
+2026-03-05 22:15:37,886 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:15:37,886 INFO Baseline updated for temperature: +100 values (count 2300 -> 2400)
+2026-03-05 22:15:37,887 INFO Baseline updated for humidity: +100 values (count 2300 -> 2400)
+2026-03-05 22:15:37,887 INFO Baseline updated for pressure: +100 values (count 2300 -> 2400)
+2026-03-05 22:15:37,887 INFO Baseline updated for wind_speed: +100 values (count 2300 -> 2400)
+2026-03-05 22:15:37,887 INFO Running anomaly calculations for raw/sensors_20260305T221536.csv
+2026-03-05 22:15:38,065 INFO Completed anomaly calculations for raw/sensors_20260305T221536.csv
+2026-03-05 22:15:38,140 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:15:38,173 INFO Finished processing raw/sensors_20260305T221536.csv: anomalies=5 total_rows=100
+2026-03-05 22:16:38,120 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221637.csv
+2026-03-05 22:16:38,120 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221637.csv
+2026-03-05 22:16:38,199 INFO Loaded 100 rows from raw/sensors_20260305T221637.csv
+2026-03-05 22:16:38,323 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:16:38,324 INFO Baseline updated for temperature: +100 values (count 2400 -> 2500)
+2026-03-05 22:16:38,324 INFO Baseline updated for humidity: +100 values (count 2400 -> 2500)
+2026-03-05 22:16:38,324 INFO Baseline updated for pressure: +100 values (count 2400 -> 2500)
+2026-03-05 22:16:38,324 INFO Baseline updated for wind_speed: +100 values (count 2400 -> 2500)
+2026-03-05 22:16:38,324 INFO Running anomaly calculations for raw/sensors_20260305T221637.csv
+2026-03-05 22:16:38,501 INFO Completed anomaly calculations for raw/sensors_20260305T221637.csv
+2026-03-05 22:16:38,558 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:16:38,589 INFO Finished processing raw/sensors_20260305T221637.csv: anomalies=6 total_rows=100
+2026-03-05 22:17:37,886 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221737.csv
+2026-03-05 22:17:37,886 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221737.csv
+2026-03-05 22:17:37,970 INFO Loaded 100 rows from raw/sensors_20260305T221737.csv
+2026-03-05 22:17:38,048 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:17:38,049 INFO Baseline updated for temperature: +100 values (count 2500 -> 2600)
+2026-03-05 22:17:38,049 INFO Baseline updated for humidity: +100 values (count 2500 -> 2600)
+2026-03-05 22:17:38,050 INFO Baseline updated for pressure: +100 values (count 2500 -> 2600)
+2026-03-05 22:17:38,050 INFO Baseline updated for wind_speed: +100 values (count 2500 -> 2600)
+2026-03-05 22:17:38,050 INFO Running anomaly calculations for raw/sensors_20260305T221737.csv
+2026-03-05 22:17:38,227 INFO Completed anomaly calculations for raw/sensors_20260305T221737.csv
+2026-03-05 22:17:38,298 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:17:38,327 INFO Finished processing raw/sensors_20260305T221737.csv: anomalies=6 total_rows=100
+2026-03-05 22:18:38,505 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221837.csv
+2026-03-05 22:18:38,506 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221837.csv
+2026-03-05 22:18:38,575 INFO Loaded 100 rows from raw/sensors_20260305T221837.csv
+2026-03-05 22:18:38,725 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:18:38,726 INFO Baseline updated for temperature: +100 values (count 2600 -> 2700)
+2026-03-05 22:18:38,726 INFO Baseline updated for humidity: +100 values (count 2600 -> 2700)
+2026-03-05 22:18:38,726 INFO Baseline updated for pressure: +100 values (count 2600 -> 2700)
+2026-03-05 22:18:38,726 INFO Baseline updated for wind_speed: +100 values (count 2600 -> 2700)
+2026-03-05 22:18:38,726 INFO Running anomaly calculations for raw/sensors_20260305T221837.csv
+2026-03-05 22:18:38,904 INFO Completed anomaly calculations for raw/sensors_20260305T221837.csv
+2026-03-05 22:18:38,965 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:18:38,994 INFO Finished processing raw/sensors_20260305T221837.csv: anomalies=5 total_rows=100
+2026-03-05 22:19:38,299 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221937.csv
+2026-03-05 22:19:38,300 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T221937.csv
+2026-03-05 22:19:38,379 INFO Loaded 100 rows from raw/sensors_20260305T221937.csv
+2026-03-05 22:19:38,453 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:19:38,454 INFO Baseline updated for temperature: +100 values (count 2700 -> 2800)
+2026-03-05 22:19:38,454 INFO Baseline updated for humidity: +100 values (count 2700 -> 2800)
+2026-03-05 22:19:38,455 INFO Baseline updated for pressure: +100 values (count 2700 -> 2800)
+2026-03-05 22:19:38,455 INFO Baseline updated for wind_speed: +100 values (count 2700 -> 2800)
+2026-03-05 22:19:38,455 INFO Running anomaly calculations for raw/sensors_20260305T221937.csv
+2026-03-05 22:19:38,632 INFO Completed anomaly calculations for raw/sensors_20260305T221937.csv
+2026-03-05 22:19:38,697 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:19:38,732 INFO Finished processing raw/sensors_20260305T221937.csv: anomalies=5 total_rows=100
+2026-03-05 22:20:38,613 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222037.csv
+2026-03-05 22:20:38,613 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222037.csv
+2026-03-05 22:20:38,692 INFO Loaded 100 rows from raw/sensors_20260305T222037.csv
+2026-03-05 22:20:38,786 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:20:38,786 INFO Baseline updated for temperature: +100 values (count 2800 -> 2900)
+2026-03-05 22:20:38,786 INFO Baseline updated for humidity: +100 values (count 2800 -> 2900)
+2026-03-05 22:20:38,787 INFO Baseline updated for pressure: +100 values (count 2800 -> 2900)
+2026-03-05 22:20:38,787 INFO Baseline updated for wind_speed: +100 values (count 2800 -> 2900)
+2026-03-05 22:20:38,787 INFO Running anomaly calculations for raw/sensors_20260305T222037.csv
+2026-03-05 22:20:38,969 INFO Completed anomaly calculations for raw/sensors_20260305T222037.csv
+2026-03-05 22:20:39,039 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:20:39,066 INFO Finished processing raw/sensors_20260305T222037.csv: anomalies=6 total_rows=100
+2026-03-05 22:21:38,239 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222137.csv
+2026-03-05 22:21:38,240 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222137.csv
+2026-03-05 22:21:38,311 INFO Loaded 100 rows from raw/sensors_20260305T222137.csv
+2026-03-05 22:21:38,391 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:21:38,392 INFO Baseline updated for temperature: +100 values (count 2900 -> 3000)
+2026-03-05 22:21:38,392 INFO Baseline updated for humidity: +100 values (count 2900 -> 3000)
+2026-03-05 22:21:38,392 INFO Baseline updated for pressure: +100 values (count 2900 -> 3000)
+2026-03-05 22:21:38,393 INFO Baseline updated for wind_speed: +100 values (count 2900 -> 3000)
+2026-03-05 22:21:38,393 INFO Running anomaly calculations for raw/sensors_20260305T222137.csv
+2026-03-05 22:21:38,571 INFO Completed anomaly calculations for raw/sensors_20260305T222137.csv
+2026-03-05 22:21:38,640 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:21:38,665 INFO Finished processing raw/sensors_20260305T222137.csv: anomalies=5 total_rows=100
+2026-03-05 22:22:38,691 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222237.csv
+2026-03-05 22:22:38,691 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222237.csv
+2026-03-05 22:22:38,776 INFO Loaded 100 rows from raw/sensors_20260305T222237.csv
+2026-03-05 22:22:38,886 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:22:38,887 INFO Baseline updated for temperature: +100 values (count 3000 -> 3100)
+2026-03-05 22:22:38,887 INFO Baseline updated for humidity: +100 values (count 3000 -> 3100)
+2026-03-05 22:22:38,887 INFO Baseline updated for pressure: +100 values (count 3000 -> 3100)
+2026-03-05 22:22:38,888 INFO Baseline updated for wind_speed: +100 values (count 3000 -> 3100)
+2026-03-05 22:22:38,888 INFO Running anomaly calculations for raw/sensors_20260305T222237.csv
+2026-03-05 22:22:39,065 INFO Completed anomaly calculations for raw/sensors_20260305T222237.csv
+2026-03-05 22:22:39,141 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:22:39,171 INFO Finished processing raw/sensors_20260305T222237.csv: anomalies=5 total_rows=100
+2026-03-05 22:23:38,356 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222337.csv
+2026-03-05 22:23:38,357 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222337.csv
+2026-03-05 22:23:38,443 INFO Loaded 100 rows from raw/sensors_20260305T222337.csv
+2026-03-05 22:23:38,565 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:23:38,566 INFO Baseline updated for temperature: +100 values (count 3100 -> 3200)
+2026-03-05 22:23:38,566 INFO Baseline updated for humidity: +100 values (count 3100 -> 3200)
+2026-03-05 22:23:38,566 INFO Baseline updated for pressure: +100 values (count 3100 -> 3200)
+2026-03-05 22:23:38,566 INFO Baseline updated for wind_speed: +100 values (count 3100 -> 3200)
+2026-03-05 22:23:38,567 INFO Running anomaly calculations for raw/sensors_20260305T222337.csv
+2026-03-05 22:23:38,836 INFO Completed anomaly calculations for raw/sensors_20260305T222337.csv
+2026-03-05 22:23:38,903 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:23:38,932 INFO Finished processing raw/sensors_20260305T222337.csv: anomalies=6 total_rows=100
+2026-03-05 22:24:38,886 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222437.csv
+2026-03-05 22:24:38,886 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222437.csv
+2026-03-05 22:24:38,969 INFO Loaded 100 rows from raw/sensors_20260305T222437.csv
+2026-03-05 22:24:39,041 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:24:39,042 INFO Baseline updated for temperature: +100 values (count 3200 -> 3300)
+2026-03-05 22:24:39,042 INFO Baseline updated for humidity: +100 values (count 3200 -> 3300)
+2026-03-05 22:24:39,042 INFO Baseline updated for pressure: +100 values (count 3200 -> 3300)
+2026-03-05 22:24:39,042 INFO Baseline updated for wind_speed: +100 values (count 3200 -> 3300)
+2026-03-05 22:24:39,042 INFO Running anomaly calculations for raw/sensors_20260305T222437.csv
+2026-03-05 22:24:39,222 INFO Completed anomaly calculations for raw/sensors_20260305T222437.csv
+2026-03-05 22:24:39,282 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:24:39,315 INFO Finished processing raw/sensors_20260305T222437.csv: anomalies=5 total_rows=100
+2026-03-05 22:25:38,502 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222537.csv
+2026-03-05 22:25:38,503 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222537.csv
+2026-03-05 22:25:38,580 INFO Loaded 100 rows from raw/sensors_20260305T222537.csv
+2026-03-05 22:25:38,657 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:25:38,658 INFO Baseline updated for temperature: +100 values (count 3300 -> 3400)
+2026-03-05 22:25:38,658 INFO Baseline updated for humidity: +100 values (count 3300 -> 3400)
+2026-03-05 22:25:38,658 INFO Baseline updated for pressure: +100 values (count 3300 -> 3400)
+2026-03-05 22:25:38,658 INFO Baseline updated for wind_speed: +100 values (count 3300 -> 3400)
+2026-03-05 22:25:38,659 INFO Running anomaly calculations for raw/sensors_20260305T222537.csv
+2026-03-05 22:25:38,837 INFO Completed anomaly calculations for raw/sensors_20260305T222537.csv
+2026-03-05 22:25:38,900 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:25:38,928 INFO Finished processing raw/sensors_20260305T222537.csv: anomalies=5 total_rows=100
+2026-03-05 22:26:38,850 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222637.csv
+2026-03-05 22:26:38,850 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222637.csv
+2026-03-05 22:26:38,956 INFO Loaded 100 rows from raw/sensors_20260305T222637.csv
+2026-03-05 22:26:39,037 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:26:39,038 INFO Baseline updated for temperature: +100 values (count 3400 -> 3500)
+2026-03-05 22:26:39,038 INFO Baseline updated for humidity: +100 values (count 3400 -> 3500)
+2026-03-05 22:26:39,039 INFO Baseline updated for pressure: +100 values (count 3400 -> 3500)
+2026-03-05 22:26:39,039 INFO Baseline updated for wind_speed: +100 values (count 3400 -> 3500)
+2026-03-05 22:26:39,039 INFO Running anomaly calculations for raw/sensors_20260305T222637.csv
+2026-03-05 22:26:39,216 INFO Completed anomaly calculations for raw/sensors_20260305T222637.csv
+2026-03-05 22:26:39,286 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:26:39,328 INFO Finished processing raw/sensors_20260305T222637.csv: anomalies=5 total_rows=100
+2026-03-05 22:27:39,285 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222738.csv
+2026-03-05 22:27:39,286 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222738.csv
+2026-03-05 22:27:39,368 INFO Loaded 100 rows from raw/sensors_20260305T222738.csv
+2026-03-05 22:27:39,447 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:27:39,448 INFO Baseline updated for temperature: +100 values (count 3500 -> 3600)
+2026-03-05 22:27:39,448 INFO Baseline updated for humidity: +100 values (count 3500 -> 3600)
+2026-03-05 22:27:39,448 INFO Baseline updated for pressure: +100 values (count 3500 -> 3600)
+2026-03-05 22:27:39,448 INFO Baseline updated for wind_speed: +100 values (count 3500 -> 3600)
+2026-03-05 22:27:39,448 INFO Running anomaly calculations for raw/sensors_20260305T222738.csv
+2026-03-05 22:27:39,629 INFO Completed anomaly calculations for raw/sensors_20260305T222738.csv
+2026-03-05 22:27:39,716 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:27:39,748 INFO Finished processing raw/sensors_20260305T222738.csv: anomalies=6 total_rows=100
+2026-03-05 22:28:38,966 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222838.csv
+2026-03-05 22:28:38,967 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222838.csv
+2026-03-05 22:28:39,047 INFO Loaded 100 rows from raw/sensors_20260305T222838.csv
+2026-03-05 22:28:39,126 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:28:39,127 INFO Baseline updated for temperature: +100 values (count 3600 -> 3700)
+2026-03-05 22:28:39,128 INFO Baseline updated for humidity: +100 values (count 3600 -> 3700)
+2026-03-05 22:28:39,128 INFO Baseline updated for pressure: +100 values (count 3600 -> 3700)
+2026-03-05 22:28:39,128 INFO Baseline updated for wind_speed: +100 values (count 3600 -> 3700)
+2026-03-05 22:28:39,128 INFO Running anomaly calculations for raw/sensors_20260305T222838.csv
+2026-03-05 22:28:39,306 INFO Completed anomaly calculations for raw/sensors_20260305T222838.csv
+2026-03-05 22:28:39,394 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:28:39,422 INFO Finished processing raw/sensors_20260305T222838.csv: anomalies=5 total_rows=100
+2026-03-05 22:29:39,445 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222938.csv
+2026-03-05 22:29:39,446 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T222938.csv
+2026-03-05 22:29:39,522 INFO Loaded 100 rows from raw/sensors_20260305T222938.csv
+2026-03-05 22:29:39,595 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:29:39,596 INFO Baseline updated for temperature: +100 values (count 3700 -> 3800)
+2026-03-05 22:29:39,596 INFO Baseline updated for humidity: +100 values (count 3700 -> 3800)
+2026-03-05 22:29:39,596 INFO Baseline updated for pressure: +100 values (count 3700 -> 3800)
+2026-03-05 22:29:39,597 INFO Baseline updated for wind_speed: +100 values (count 3700 -> 3800)
+2026-03-05 22:29:39,597 INFO Running anomaly calculations for raw/sensors_20260305T222938.csv
+2026-03-05 22:29:39,773 INFO Completed anomaly calculations for raw/sensors_20260305T222938.csv
+2026-03-05 22:29:39,878 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:29:39,906 INFO Finished processing raw/sensors_20260305T222938.csv: anomalies=6 total_rows=100
+2026-03-05 22:30:38,999 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223038.csv
+2026-03-05 22:30:39,000 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223038.csv
+2026-03-05 22:30:39,076 INFO Loaded 100 rows from raw/sensors_20260305T223038.csv
+2026-03-05 22:30:39,178 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:30:39,178 INFO Baseline updated for temperature: +100 values (count 3800 -> 3900)
+2026-03-05 22:30:39,178 INFO Baseline updated for humidity: +100 values (count 3800 -> 3900)
+2026-03-05 22:30:39,179 INFO Baseline updated for pressure: +100 values (count 3800 -> 3900)
+2026-03-05 22:30:39,179 INFO Baseline updated for wind_speed: +100 values (count 3800 -> 3900)
+2026-03-05 22:30:39,179 INFO Running anomaly calculations for raw/sensors_20260305T223038.csv
+2026-03-05 22:30:39,358 INFO Completed anomaly calculations for raw/sensors_20260305T223038.csv
+2026-03-05 22:30:39,439 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:30:39,533 INFO Finished processing raw/sensors_20260305T223038.csv: anomalies=5 total_rows=100
+2026-03-05 22:31:39,545 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223138.csv
+2026-03-05 22:31:39,546 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223138.csv
+2026-03-05 22:31:39,617 INFO Loaded 100 rows from raw/sensors_20260305T223138.csv
+2026-03-05 22:31:39,783 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:31:39,784 INFO Baseline updated for temperature: +100 values (count 3900 -> 4000)
+2026-03-05 22:31:39,785 INFO Baseline updated for humidity: +100 values (count 3900 -> 4000)
+2026-03-05 22:31:39,785 INFO Baseline updated for pressure: +100 values (count 3900 -> 4000)
+2026-03-05 22:31:39,785 INFO Baseline updated for wind_speed: +100 values (count 3900 -> 4000)
+2026-03-05 22:31:39,785 INFO Running anomaly calculations for raw/sensors_20260305T223138.csv
+2026-03-05 22:31:39,968 INFO Completed anomaly calculations for raw/sensors_20260305T223138.csv
+2026-03-05 22:31:40,046 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:31:40,069 INFO Finished processing raw/sensors_20260305T223138.csv: anomalies=6 total_rows=100
+2026-03-05 22:32:39,847 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223238.csv
+2026-03-05 22:32:39,848 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223238.csv
+2026-03-05 22:32:39,932 INFO Loaded 100 rows from raw/sensors_20260305T223238.csv
+2026-03-05 22:32:40,010 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:32:40,010 INFO Baseline updated for temperature: +100 values (count 4000 -> 4100)
+2026-03-05 22:32:40,011 INFO Baseline updated for humidity: +100 values (count 4000 -> 4100)
+2026-03-05 22:32:40,011 INFO Baseline updated for pressure: +100 values (count 4000 -> 4100)
+2026-03-05 22:32:40,011 INFO Baseline updated for wind_speed: +100 values (count 4000 -> 4100)
+2026-03-05 22:32:40,011 INFO Running anomaly calculations for raw/sensors_20260305T223238.csv
+2026-03-05 22:32:40,190 INFO Completed anomaly calculations for raw/sensors_20260305T223238.csv
+2026-03-05 22:32:40,281 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:32:40,308 INFO Finished processing raw/sensors_20260305T223238.csv: anomalies=7 total_rows=100
+2026-03-05 22:33:39,543 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223338.csv
+2026-03-05 22:33:39,543 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223338.csv
+2026-03-05 22:33:39,615 INFO Loaded 100 rows from raw/sensors_20260305T223338.csv
+2026-03-05 22:33:39,761 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:33:39,762 INFO Baseline updated for temperature: +100 values (count 4100 -> 4200)
+2026-03-05 22:33:39,762 INFO Baseline updated for humidity: +100 values (count 4100 -> 4200)
+2026-03-05 22:33:39,762 INFO Baseline updated for pressure: +100 values (count 4100 -> 4200)
+2026-03-05 22:33:39,762 INFO Baseline updated for wind_speed: +100 values (count 4100 -> 4200)
+2026-03-05 22:33:39,762 INFO Running anomaly calculations for raw/sensors_20260305T223338.csv
+2026-03-05 22:33:39,939 INFO Completed anomaly calculations for raw/sensors_20260305T223338.csv
+2026-03-05 22:33:40,003 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:33:40,033 INFO Finished processing raw/sensors_20260305T223338.csv: anomalies=6 total_rows=100
+2026-03-05 22:34:39,956 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223438.csv
+2026-03-05 22:34:39,957 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223438.csv
+2026-03-05 22:34:40,034 INFO Loaded 100 rows from raw/sensors_20260305T223438.csv
+2026-03-05 22:34:40,107 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:34:40,108 INFO Baseline updated for temperature: +100 values (count 4200 -> 4300)
+2026-03-05 22:34:40,108 INFO Baseline updated for humidity: +100 values (count 4200 -> 4300)
+2026-03-05 22:34:40,108 INFO Baseline updated for pressure: +100 values (count 4200 -> 4300)
+2026-03-05 22:34:40,108 INFO Baseline updated for wind_speed: +100 values (count 4200 -> 4300)
+2026-03-05 22:34:40,109 INFO Running anomaly calculations for raw/sensors_20260305T223438.csv
+2026-03-05 22:34:40,287 INFO Completed anomaly calculations for raw/sensors_20260305T223438.csv
+2026-03-05 22:34:40,358 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:34:40,392 INFO Finished processing raw/sensors_20260305T223438.csv: anomalies=6 total_rows=100
+2026-03-05 22:35:39,534 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223538.csv
+2026-03-05 22:35:39,535 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223538.csv
+2026-03-05 22:35:39,609 INFO Loaded 100 rows from raw/sensors_20260305T223538.csv
+2026-03-05 22:35:39,674 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:35:39,675 INFO Baseline updated for temperature: +100 values (count 4300 -> 4400)
+2026-03-05 22:35:39,675 INFO Baseline updated for humidity: +100 values (count 4300 -> 4400)
+2026-03-05 22:35:39,676 INFO Baseline updated for pressure: +100 values (count 4300 -> 4400)
+2026-03-05 22:35:39,676 INFO Baseline updated for wind_speed: +100 values (count 4300 -> 4400)
+2026-03-05 22:35:39,676 INFO Running anomaly calculations for raw/sensors_20260305T223538.csv
+2026-03-05 22:35:39,853 INFO Completed anomaly calculations for raw/sensors_20260305T223538.csv
+2026-03-05 22:35:39,932 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:35:39,960 INFO Finished processing raw/sensors_20260305T223538.csv: anomalies=6 total_rows=100
+2026-03-05 22:36:39,968 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223638.csv
+2026-03-05 22:36:39,968 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223638.csv
+2026-03-05 22:36:40,045 INFO Loaded 100 rows from raw/sensors_20260305T223638.csv
+2026-03-05 22:36:40,119 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:36:40,119 INFO Baseline updated for temperature: +100 values (count 4400 -> 4500)
+2026-03-05 22:36:40,120 INFO Baseline updated for humidity: +100 values (count 4400 -> 4500)
+2026-03-05 22:36:40,120 INFO Baseline updated for pressure: +100 values (count 4400 -> 4500)
+2026-03-05 22:36:40,120 INFO Baseline updated for wind_speed: +100 values (count 4400 -> 4500)
+2026-03-05 22:36:40,120 INFO Running anomaly calculations for raw/sensors_20260305T223638.csv
+2026-03-05 22:36:40,299 INFO Completed anomaly calculations for raw/sensors_20260305T223638.csv
+2026-03-05 22:36:40,363 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:36:40,401 INFO Finished processing raw/sensors_20260305T223638.csv: anomalies=5 total_rows=100
+2026-03-05 22:37:39,728 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223739.csv
+2026-03-05 22:37:39,728 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223739.csv
+2026-03-05 22:37:39,802 INFO Loaded 100 rows from raw/sensors_20260305T223739.csv
+2026-03-05 22:37:39,879 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:37:39,880 INFO Baseline updated for temperature: +100 values (count 4500 -> 4600)
+2026-03-05 22:37:39,880 INFO Baseline updated for humidity: +100 values (count 4500 -> 4600)
+2026-03-05 22:37:39,880 INFO Baseline updated for pressure: +100 values (count 4500 -> 4600)
+2026-03-05 22:37:39,881 INFO Baseline updated for wind_speed: +100 values (count 4500 -> 4600)
+2026-03-05 22:37:39,881 INFO Running anomaly calculations for raw/sensors_20260305T223739.csv
+2026-03-05 22:37:40,059 INFO Completed anomaly calculations for raw/sensors_20260305T223739.csv
+2026-03-05 22:37:40,137 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:37:40,165 INFO Finished processing raw/sensors_20260305T223739.csv: anomalies=5 total_rows=100
+2026-03-05 22:38:40,042 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223839.csv
+2026-03-05 22:38:40,043 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223839.csv
+2026-03-05 22:38:40,120 INFO Loaded 100 rows from raw/sensors_20260305T223839.csv
+2026-03-05 22:38:40,206 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:38:40,206 INFO Baseline updated for temperature: +100 values (count 4600 -> 4700)
+2026-03-05 22:38:40,207 INFO Baseline updated for humidity: +100 values (count 4600 -> 4700)
+2026-03-05 22:38:40,207 INFO Baseline updated for pressure: +100 values (count 4600 -> 4700)
+2026-03-05 22:38:40,207 INFO Baseline updated for wind_speed: +100 values (count 4600 -> 4700)
+2026-03-05 22:38:40,207 INFO Running anomaly calculations for raw/sensors_20260305T223839.csv
+2026-03-05 22:38:40,384 INFO Completed anomaly calculations for raw/sensors_20260305T223839.csv
+2026-03-05 22:38:40,464 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:38:40,513 INFO Finished processing raw/sensors_20260305T223839.csv: anomalies=5 total_rows=100
+2026-03-05 22:39:40,780 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223939.csv
+2026-03-05 22:39:40,780 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T223939.csv
+2026-03-05 22:39:40,869 INFO Loaded 100 rows from raw/sensors_20260305T223939.csv
+2026-03-05 22:39:40,952 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:39:40,952 INFO Baseline updated for temperature: +100 values (count 4700 -> 4800)
+2026-03-05 22:39:40,953 INFO Baseline updated for humidity: +100 values (count 4700 -> 4800)
+2026-03-05 22:39:40,953 INFO Baseline updated for pressure: +100 values (count 4700 -> 4800)
+2026-03-05 22:39:40,953 INFO Baseline updated for wind_speed: +100 values (count 4700 -> 4800)
+2026-03-05 22:39:40,953 INFO Running anomaly calculations for raw/sensors_20260305T223939.csv
+2026-03-05 22:39:41,133 INFO Completed anomaly calculations for raw/sensors_20260305T223939.csv
+2026-03-05 22:39:41,188 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:39:41,225 INFO Finished processing raw/sensors_20260305T223939.csv: anomalies=5 total_rows=100
+2026-03-05 22:40:40,032 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224039.csv
+2026-03-05 22:40:40,033 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224039.csv
+2026-03-05 22:40:40,105 INFO Loaded 100 rows from raw/sensors_20260305T224039.csv
+2026-03-05 22:40:40,181 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:40:40,182 INFO Baseline updated for temperature: +100 values (count 4800 -> 4900)
+2026-03-05 22:40:40,183 INFO Baseline updated for humidity: +100 values (count 4800 -> 4900)
+2026-03-05 22:40:40,183 INFO Baseline updated for pressure: +100 values (count 4800 -> 4900)
+2026-03-05 22:40:40,183 INFO Baseline updated for wind_speed: +100 values (count 4800 -> 4900)
+2026-03-05 22:40:40,183 INFO Running anomaly calculations for raw/sensors_20260305T224039.csv
+2026-03-05 22:40:40,366 INFO Completed anomaly calculations for raw/sensors_20260305T224039.csv
+2026-03-05 22:40:40,438 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:40:40,468 INFO Finished processing raw/sensors_20260305T224039.csv: anomalies=6 total_rows=100
+2026-03-05 22:41:40,561 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224139.csv
+2026-03-05 22:41:40,562 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224139.csv
+2026-03-05 22:41:40,640 INFO Loaded 100 rows from raw/sensors_20260305T224139.csv
+2026-03-05 22:41:40,716 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:41:40,717 INFO Baseline updated for temperature: +100 values (count 4900 -> 5000)
+2026-03-05 22:41:40,717 INFO Baseline updated for humidity: +100 values (count 4900 -> 5000)
+2026-03-05 22:41:40,717 INFO Baseline updated for pressure: +100 values (count 4900 -> 5000)
+2026-03-05 22:41:40,718 INFO Baseline updated for wind_speed: +100 values (count 4900 -> 5000)
+2026-03-05 22:41:40,718 INFO Running anomaly calculations for raw/sensors_20260305T224139.csv
+2026-03-05 22:41:40,901 INFO Completed anomaly calculations for raw/sensors_20260305T224139.csv
+2026-03-05 22:41:40,983 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:41:41,030 INFO Finished processing raw/sensors_20260305T224139.csv: anomalies=5 total_rows=100
+2026-03-05 22:42:40,135 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224239.csv
+2026-03-05 22:42:40,136 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224239.csv
+2026-03-05 22:42:40,213 INFO Loaded 100 rows from raw/sensors_20260305T224239.csv
+2026-03-05 22:42:40,286 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:42:40,286 INFO Baseline updated for temperature: +100 values (count 5000 -> 5100)
+2026-03-05 22:42:40,287 INFO Baseline updated for humidity: +100 values (count 5000 -> 5100)
+2026-03-05 22:42:40,287 INFO Baseline updated for pressure: +100 values (count 5000 -> 5100)
+2026-03-05 22:42:40,287 INFO Baseline updated for wind_speed: +100 values (count 5000 -> 5100)
+2026-03-05 22:42:40,287 INFO Running anomaly calculations for raw/sensors_20260305T224239.csv
+2026-03-05 22:42:40,464 INFO Completed anomaly calculations for raw/sensors_20260305T224239.csv
+2026-03-05 22:42:40,528 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:42:40,558 INFO Finished processing raw/sensors_20260305T224239.csv: anomalies=6 total_rows=100
+2026-03-05 22:43:40,618 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224339.csv
+2026-03-05 22:43:40,618 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224339.csv
+2026-03-05 22:43:40,690 INFO Loaded 100 rows from raw/sensors_20260305T224339.csv
+2026-03-05 22:43:40,797 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:43:40,797 INFO Baseline updated for temperature: +100 values (count 5100 -> 5200)
+2026-03-05 22:43:40,797 INFO Baseline updated for humidity: +100 values (count 5100 -> 5200)
+2026-03-05 22:43:40,798 INFO Baseline updated for pressure: +100 values (count 5100 -> 5200)
+2026-03-05 22:43:40,798 INFO Baseline updated for wind_speed: +100 values (count 5100 -> 5200)
+2026-03-05 22:43:40,798 INFO Running anomaly calculations for raw/sensors_20260305T224339.csv
+2026-03-05 22:43:40,979 INFO Completed anomaly calculations for raw/sensors_20260305T224339.csv
+2026-03-05 22:43:41,038 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:43:41,071 INFO Finished processing raw/sensors_20260305T224339.csv: anomalies=5 total_rows=100
+2026-03-05 22:44:40,983 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224439.csv
+2026-03-05 22:44:40,984 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224439.csv
+2026-03-05 22:44:41,053 INFO Loaded 100 rows from raw/sensors_20260305T224439.csv
+2026-03-05 22:44:41,124 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:44:41,124 INFO Baseline updated for temperature: +100 values (count 5200 -> 5300)
+2026-03-05 22:44:41,125 INFO Baseline updated for humidity: +100 values (count 5200 -> 5300)
+2026-03-05 22:44:41,125 INFO Baseline updated for pressure: +100 values (count 5200 -> 5300)
+2026-03-05 22:44:41,125 INFO Baseline updated for wind_speed: +100 values (count 5200 -> 5300)
+2026-03-05 22:44:41,125 INFO Running anomaly calculations for raw/sensors_20260305T224439.csv
+2026-03-05 22:44:41,303 INFO Completed anomaly calculations for raw/sensors_20260305T224439.csv
+2026-03-05 22:44:41,360 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:44:41,392 INFO Finished processing raw/sensors_20260305T224439.csv: anomalies=5 total_rows=100
+2026-03-05 22:45:40,524 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224539.csv
+2026-03-05 22:45:40,525 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224539.csv
+2026-03-05 22:45:40,608 INFO Loaded 100 rows from raw/sensors_20260305T224539.csv
+2026-03-05 22:45:40,685 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:45:40,685 INFO Baseline updated for temperature: +100 values (count 5300 -> 5400)
+2026-03-05 22:45:40,686 INFO Baseline updated for humidity: +100 values (count 5300 -> 5400)
+2026-03-05 22:45:40,686 INFO Baseline updated for pressure: +100 values (count 5300 -> 5400)
+2026-03-05 22:45:40,686 INFO Baseline updated for wind_speed: +100 values (count 5300 -> 5400)
+2026-03-05 22:45:40,686 INFO Running anomaly calculations for raw/sensors_20260305T224539.csv
+2026-03-05 22:45:40,863 INFO Completed anomaly calculations for raw/sensors_20260305T224539.csv
+2026-03-05 22:45:40,924 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:45:40,953 INFO Finished processing raw/sensors_20260305T224539.csv: anomalies=6 total_rows=100
+2026-03-05 22:46:41,113 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224639.csv
+2026-03-05 22:46:41,113 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224639.csv
+2026-03-05 22:46:41,191 INFO Loaded 100 rows from raw/sensors_20260305T224639.csv
+2026-03-05 22:46:41,275 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:46:41,276 INFO Baseline updated for temperature: +100 values (count 5400 -> 5500)
+2026-03-05 22:46:41,276 INFO Baseline updated for humidity: +100 values (count 5400 -> 5500)
+2026-03-05 22:46:41,276 INFO Baseline updated for pressure: +100 values (count 5400 -> 5500)
+2026-03-05 22:46:41,276 INFO Baseline updated for wind_speed: +100 values (count 5400 -> 5500)
+2026-03-05 22:46:41,276 INFO Running anomaly calculations for raw/sensors_20260305T224639.csv
+2026-03-05 22:46:41,456 INFO Completed anomaly calculations for raw/sensors_20260305T224639.csv
+2026-03-05 22:46:41,546 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:46:41,595 INFO Finished processing raw/sensors_20260305T224639.csv: anomalies=5 total_rows=100
+2026-03-05 22:47:40,670 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224739.csv
+2026-03-05 22:47:40,671 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224739.csv
+2026-03-05 22:47:40,744 INFO Loaded 100 rows from raw/sensors_20260305T224739.csv
+2026-03-05 22:47:40,821 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:47:40,822 INFO Baseline updated for temperature: +100 values (count 5500 -> 5600)
+2026-03-05 22:47:40,822 INFO Baseline updated for humidity: +100 values (count 5500 -> 5600)
+2026-03-05 22:47:40,822 INFO Baseline updated for pressure: +100 values (count 5500 -> 5600)
+2026-03-05 22:47:40,822 INFO Baseline updated for wind_speed: +100 values (count 5500 -> 5600)
+2026-03-05 22:47:40,823 INFO Running anomaly calculations for raw/sensors_20260305T224739.csv
+2026-03-05 22:47:41,000 INFO Completed anomaly calculations for raw/sensors_20260305T224739.csv
+2026-03-05 22:47:41,076 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:47:41,104 INFO Finished processing raw/sensors_20260305T224739.csv: anomalies=5 total_rows=100
+2026-03-05 22:48:41,132 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224840.csv
+2026-03-05 22:48:41,133 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224840.csv
+2026-03-05 22:48:41,210 INFO Loaded 100 rows from raw/sensors_20260305T224840.csv
+2026-03-05 22:48:41,280 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:48:41,280 INFO Baseline updated for temperature: +100 values (count 5600 -> 5700)
+2026-03-05 22:48:41,281 INFO Baseline updated for humidity: +100 values (count 5600 -> 5700)
+2026-03-05 22:48:41,281 INFO Baseline updated for pressure: +100 values (count 5600 -> 5700)
+2026-03-05 22:48:41,281 INFO Baseline updated for wind_speed: +100 values (count 5600 -> 5700)
+2026-03-05 22:48:41,281 INFO Running anomaly calculations for raw/sensors_20260305T224840.csv
+2026-03-05 22:48:41,458 INFO Completed anomaly calculations for raw/sensors_20260305T224840.csv
+2026-03-05 22:48:41,519 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:48:41,550 INFO Finished processing raw/sensors_20260305T224840.csv: anomalies=7 total_rows=100
+2026-03-05 22:49:41,486 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224940.csv
+2026-03-05 22:49:41,486 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T224940.csv
+2026-03-05 22:49:41,563 INFO Loaded 100 rows from raw/sensors_20260305T224940.csv
+2026-03-05 22:49:41,637 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:49:41,638 INFO Baseline updated for temperature: +100 values (count 5700 -> 5800)
+2026-03-05 22:49:41,638 INFO Baseline updated for humidity: +100 values (count 5700 -> 5800)
+2026-03-05 22:49:41,638 INFO Baseline updated for pressure: +100 values (count 5700 -> 5800)
+2026-03-05 22:49:41,638 INFO Baseline updated for wind_speed: +100 values (count 5700 -> 5800)
+2026-03-05 22:49:41,638 INFO Running anomaly calculations for raw/sensors_20260305T224940.csv
+2026-03-05 22:49:41,814 INFO Completed anomaly calculations for raw/sensors_20260305T224940.csv
+2026-03-05 22:49:41,897 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:49:41,931 INFO Finished processing raw/sensors_20260305T224940.csv: anomalies=5 total_rows=100
+2026-03-05 22:50:41,135 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T225040.csv
+2026-03-05 22:50:41,136 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T225040.csv
+2026-03-05 22:50:41,213 INFO Loaded 100 rows from raw/sensors_20260305T225040.csv
+2026-03-05 22:50:41,286 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:50:41,286 INFO Baseline updated for temperature: +100 values (count 5800 -> 5900)
+2026-03-05 22:50:41,287 INFO Baseline updated for humidity: +100 values (count 5800 -> 5900)
+2026-03-05 22:50:41,287 INFO Baseline updated for pressure: +100 values (count 5800 -> 5900)
+2026-03-05 22:50:41,287 INFO Baseline updated for wind_speed: +100 values (count 5800 -> 5900)
+2026-03-05 22:50:41,287 INFO Running anomaly calculations for raw/sensors_20260305T225040.csv
+2026-03-05 22:50:41,465 INFO Completed anomaly calculations for raw/sensors_20260305T225040.csv
+2026-03-05 22:50:41,521 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:50:41,549 INFO Finished processing raw/sensors_20260305T225040.csv: anomalies=7 total_rows=100
+2026-03-05 22:51:41,511 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T225140.csv
+2026-03-05 22:51:41,511 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T225140.csv
+2026-03-05 22:51:41,585 INFO Loaded 100 rows from raw/sensors_20260305T225140.csv
+2026-03-05 22:51:41,658 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:51:41,658 INFO Baseline updated for temperature: +100 values (count 5900 -> 6000)
+2026-03-05 22:51:41,659 INFO Baseline updated for humidity: +100 values (count 5900 -> 6000)
+2026-03-05 22:51:41,659 INFO Baseline updated for pressure: +100 values (count 5900 -> 6000)
+2026-03-05 22:51:41,659 INFO Baseline updated for wind_speed: +100 values (count 5900 -> 6000)
+2026-03-05 22:51:41,659 INFO Running anomaly calculations for raw/sensors_20260305T225140.csv
+2026-03-05 22:51:41,837 INFO Completed anomaly calculations for raw/sensors_20260305T225140.csv
+2026-03-05 22:51:41,905 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:51:41,932 INFO Finished processing raw/sensors_20260305T225140.csv: anomalies=5 total_rows=100
+2026-03-05 22:52:42,040 INFO New file arrived: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T225240.csv
+2026-03-05 22:52:42,040 INFO Starting processing for new file: s3://ds5220-proj1-databucket-tep0j29wgnqq/raw/sensors_20260305T225240.csv
+2026-03-05 22:52:42,115 INFO Loaded 100 rows from raw/sensors_20260305T225240.csv
+2026-03-05 22:52:42,198 INFO Loaded current baseline for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:52:42,199 INFO Baseline updated for temperature: +100 values (count 6000 -> 6100)
+2026-03-05 22:52:42,199 INFO Baseline updated for humidity: +100 values (count 6000 -> 6100)
+2026-03-05 22:52:42,200 INFO Baseline updated for pressure: +100 values (count 6000 -> 6100)
+2026-03-05 22:52:42,200 INFO Baseline updated for wind_speed: +100 values (count 6000 -> 6100)
+2026-03-05 22:52:42,200 INFO Running anomaly calculations for raw/sensors_20260305T225240.csv
+2026-03-05 22:52:42,379 INFO Completed anomaly calculations for raw/sensors_20260305T225240.csv
+2026-03-05 22:52:42,437 INFO Saved updated baseline to S3 for ds5220-proj1-databucket-tep0j29wgnqq
+2026-03-05 22:52:42,473 INFO Finished processing raw/sensors_20260305T225240.csv: anomalies=6 total_rows=100
