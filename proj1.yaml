@@ -56,6 +56,8 @@ Resources:
             Condition:
               StringEquals:
                 aws:SourceAccount: !Ref AWS::AccountId
+              ArnLike:
+                aws:SourceArn: !GetAtt DataBucket.Arn
 
   AppRole:
     Type: AWS::IAM::Role
